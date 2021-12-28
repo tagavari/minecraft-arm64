@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED5FBA1627792366008DA929 /* rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5FBA1527792366008DA929 /* rules.swift */; };
+		ED5FBA18277925A2008DA929 /* os.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5FBA17277925A2008DA929 /* os.swift */; };
+		ED5FBA1A27792691008DA929 /* library.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5FBA1927792691008DA929 /* library.swift */; };
+		ED9D1DF7277A4FDA003FB5E4 /* dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D1DF6277A4FDA003FB5E4 /* dictionary.swift */; };
+		ED9D7FA6277799ED00C26621 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D7FA5277799ED00C26621 /* main.swift */; };
+		EDFB1DCD277A619E00E4E20B /* urlInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB1DCC277A619E00E4E20B /* urlInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED9D7FA0277799ED00C26621 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED0B457E277BAE19000E6957 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ED1978C1277B8E5B006FB0CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED5FBA1527792366008DA929 /* rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rules.swift; sourceTree = "<group>"; };
+		ED5FBA17277925A2008DA929 /* os.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = os.swift; sourceTree = "<group>"; };
+		ED5FBA1927792691008DA929 /* library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = library.swift; sourceTree = "<group>"; };
+		ED9D1DF6277A4FDA003FB5E4 /* dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionary.swift; sourceTree = "<group>"; };
+		ED9D7FA2277799ED00C26621 /* Minecraft arm64 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Minecraft arm64"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9D7FA5277799ED00C26621 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		EDFB1DCC277A619E00E4E20B /* urlInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urlInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED9D7F9F277799ED00C26621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED9D7F99277799ED00C26621 = {
+			isa = PBXGroup;
+			children = (
+				ED0B457E277BAE19000E6957 /* .gitignore */,
+				ED1978C1277B8E5B006FB0CB /* README.md */,
+				ED9D7FA4277799ED00C26621 /* Minecraft arm64 */,
+				ED9D7FA3277799ED00C26621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED9D7FA3277799ED00C26621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D7FA2277799ED00C26621 /* Minecraft arm64 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED9D7FA4277799ED00C26621 /* Minecraft arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D7FA5277799ED00C26621 /* main.swift */,
+				ED5FBA1527792366008DA929 /* rules.swift */,
+				ED5FBA17277925A2008DA929 /* os.swift */,
+				ED5FBA1927792691008DA929 /* library.swift */,
+				ED9D1DF6277A4FDA003FB5E4 /* dictionary.swift */,
+				EDFB1DCC277A619E00E4E20B /* urlInfo.swift */,
+			);
+			path = "Minecraft arm64";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED9D7FA1277799ED00C26621 /* Minecraft arm64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED9D7FA9277799ED00C26621 /* Build configuration list for PBXNativeTarget "Minecraft arm64" */;
+			buildPhases = (
+				ED9D7F9E277799ED00C26621 /* Sources */,
+				ED9D7F9F277799ED00C26621 /* Frameworks */,
+				ED9D7FA0277799ED00C26621 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minecraft arm64";
+			productName = "Minecraft arm64";
+			productReference = ED9D7FA2277799ED00C26621 /* Minecraft arm64 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED9D7F9A277799ED00C26621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					ED9D7FA1277799ED00C26621 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = ED9D7F9D277799ED00C26621 /* Build configuration list for PBXProject "Minecraft arm64" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED9D7F99277799ED00C26621;
+			productRefGroup = ED9D7FA3277799ED00C26621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED9D7FA1277799ED00C26621 /* Minecraft arm64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED9D7F9E277799ED00C26621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9D7FA6277799ED00C26621 /* main.swift in Sources */,
+				EDFB1DCD277A619E00E4E20B /* urlInfo.swift in Sources */,
+				ED9D1DF7277A4FDA003FB5E4 /* dictionary.swift in Sources */,
+				ED5FBA1A27792691008DA929 /* library.swift in Sources */,
+				ED5FBA18277925A2008DA929 /* os.swift in Sources */,
+				ED5FBA1627792366008DA929 /* rules.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ED9D7FA7277799ED00C26621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED9D7FA8277799ED00C26621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ED9D7FAA277799ED00C26621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T86T6AP696;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tagavari.minecraftarm64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED9D7FAB277799ED00C26621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T86T6AP696;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.tagavari.minecraftarm64;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED9D7F9D277799ED00C26621 /* Build configuration list for PBXProject "Minecraft arm64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9D7FA7277799ED00C26621 /* Debug */,
+				ED9D7FA8277799ED00C26621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED9D7FA9277799ED00C26621 /* Build configuration list for PBXNativeTarget "Minecraft arm64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9D7FAA277799ED00C26621 /* Debug */,
+				ED9D7FAB277799ED00C26621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED9D7F9A277799ED00C26621 /* Project object */;
+}
