@@ -1,3 +1,5 @@
+See [minecraft-silicon](https://github.com/tagavari/minecraft-silicon) for an easy-to-use GUI for patching Minecraft versions
+
 # Minecraft arm64
 
 This utility patches Minecraft versions to use lwjgl libraries compiled for arm64.
